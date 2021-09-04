@@ -1,0 +1,27 @@
+{
+  "type": "origins:action_over_time",
+
+  "entity_action": 
+  {
+    "type": "origins:apply_effect",
+    "effect": 
+    {
+      "effect": "minecraft:haste",
+      "duration": 2,
+      "amplifier": 0,
+      "show_particles": false,
+      "show_icon": false
+    }
+  },
+  "interval": 1,
+  "condition":
+  {
+    "type": "origins:in_block",
+    "block_condition":
+    {
+      "type": "origins:height",
+      "comparison": "<=",
+      "compare_to": 40
+    }
+  }
+}

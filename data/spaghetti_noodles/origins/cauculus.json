@@ -1,0 +1,15 @@
+{
+	"powers": 
+	[
+		"spaghetti_noodles:hunger",
+		"spaghetti_noodles:cauculus_height",
+		"spaghetti_noodles:cauculus_nightvision",
+		"spaghetti_noodles:cauculus_mining",
+		"spaghetti_noodles:cauculus_bow_restriction"
+	],
+	"icon": "minecraft:iron_sword",
+	"order": 10,
+	"impact": 0,
+	"name": "Cauculus",
+	"description": "Placeholder"
+}
