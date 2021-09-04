@@ -2,7 +2,7 @@
 	"powers": 
 	[
 		"origins:climbing",
-		"origins:light_armor",
+		"spaghetti_noodles:simia_light_armor",
 		"spaghetti_noodles:simia_falling"
 	],
 	"icon": "minecraft:grass",
