@@ -8,5 +8,7 @@
     "name": "Weakness to falling",
     "operation": "multiply_total",
     "value": 1.33
-  }
+  },
+  "name": "Weak Ankles",
+  "description": "You take 30% more fall damamge"
 }

@@ -10,5 +10,7 @@
             "comparison": "<=",
             "compare_to": 40
         }
-    }
+    },
+    "name": "Night Vision",
+    "description": "When below y 40, you gain night vision"
 }

@@ -23,5 +23,7 @@
       "comparison": "<=",
       "compare_to": 40
     }
-  }
+  },
+  "name": "Deep Earth Mining",
+  "description": "When below y 40, you gain haste."
 }

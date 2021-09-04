@@ -7,5 +7,7 @@
     {
       "item": "minecraft:bow"
     }
-  }
+  },
+  "name": "Bow Restriction",
+  "description": "You cannot use a bow"
 }

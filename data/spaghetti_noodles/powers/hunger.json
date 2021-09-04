@@ -4,5 +4,7 @@
     "type": "origins:exhaust",
     "amount": 0.1
   },
-  "interval": 2
+  "interval": 2,
+  "name": "Ravenous",
+  "description": "You must eat more often to sustain yourself"
 }
