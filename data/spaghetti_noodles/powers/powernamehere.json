@@ -1,0 +1,9 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Poop",
+    "attribute": "minecraft:generic.attack_speed",
+    "value": 1,
+    "operation": "addition"
+  }
+}

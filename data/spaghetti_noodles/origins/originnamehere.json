@@ -1,10 +1,11 @@
 {
-	"powers": [
-		"packnamehere:powernamehere"
+	"powers": 
+	[
+		"spaghetti_noodles:powernamehere"
 	],
-	"icon": "minecraft:BLOCK ID HERE",
+	"icon": "minecraft:grass",
 	"order": 10,
 	"impact": 0,
-	"name": "NAME HERE",
-	"description": "DESCRIPTION HERE"
+	"name": "Simia",
+	"description": "Placeholder"
 }
