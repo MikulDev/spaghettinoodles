@@ -1,7 +1,9 @@
 {
 	"powers": 
 	[
-		"spaghetti_noodles:powernamehere"
+		"origins:climbing",
+		"origins:light_armor",
+		"spaghetti_noodles:simia_falling"
 	],
 	"icon": "minecraft:grass",
 	"order": 10,
