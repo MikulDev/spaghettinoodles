@@ -2,7 +2,9 @@
   "replace": false,   
   "origins": 
   [
+    "spaghetti_noodles:humana",
     "spaghetti_noodles:simia",
-    "spaghetti_noodles:cauculus"
+    "spaghetti_noodles:cauculus",
+    "spaghetti_noodles:saxum"
   ]
 }

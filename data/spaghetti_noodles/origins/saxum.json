@@ -1,0 +1,20 @@
+{
+	"powers": 
+    [
+        "origins:fire_immunity",
+        "spaghetti_noodles:saxum_tolerance",
+        "spaghetti_noodles:saxum_no_drowning",
+        "spaghetti_noodles:saxum_underground_vitality",
+        "spaghetti_noodles:saxum_aboveground_frailty",
+        "spaghetti_noodles:saxum_golem_short",
+        "spaghetti_noodles:saxum_golem_stature",
+        "spaghetti_noodles:saxum_aboveground_weakness",
+        "spaghetti_noodles:hunger",
+        "spaghetti_noodles:saxum_aboveground_hunger"
+	],
+	"icon": "minecraft:iron_pickaxe",
+	"order": 10,
+	"impact": 0,
+	"name": "Saxum",
+	"description": "Placeholder"
+}

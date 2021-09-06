@@ -1,0 +1,14 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_condition": 
+    {
+        "type": "origins:name",
+        "name": "drown"
+    },
+    "modifier": 
+    {
+        "name": "Breathless",
+        "operation": "multiply_total",
+        "value": -1
+    }
+}
