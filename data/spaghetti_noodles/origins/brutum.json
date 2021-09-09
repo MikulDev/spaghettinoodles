@@ -1,0 +1,15 @@
+{
+	"powers": 
+    [
+        "spaghetti_noodles:hunger",
+        "spaghetti_noodles:brutum_effect",
+        "spaghetti_noodles:brutum_hearts",
+        "spaghetti_noodles:brutum_height",
+        "spaghetti_noodles:brutum_pride"
+	],
+	"icon": "minecraft:leather",
+	"order": 10,
+	"impact": 0,
+	"name": "Brutum",
+	"description": "Placeholder"
+}

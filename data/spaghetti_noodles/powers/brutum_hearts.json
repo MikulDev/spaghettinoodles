@@ -1,0 +1,11 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": 
+    {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": 4,
+        "name": "Monstrous"
+    },
+    "hidden": true
+} 
