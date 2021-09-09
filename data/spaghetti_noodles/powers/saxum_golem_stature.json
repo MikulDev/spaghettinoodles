@@ -1,31 +1,4 @@
 {
-    "type": "origins:action_over_time",
-    "entity_action": 
-    {
-        "type":"origins:and",
-		"actions":
-        [
-            {
-                "type": "origins:execute_command",
-                "command": "scale set pehkui:width 2 @s",
-                "permission_level": 4
-            },
-            {
-                "type": "origins:execute_command",
-                "command": "scale set pehkui:height 2 @s",
-                "permission_level": 4
-            }
-        ]
-    },
-    "interval": 20,
-    "condition": 
-    {
-        "type": "origins:in_block",
-        "block_condition":
-        {
-          "type": "origins:height",
-          "comparison": "<=",
-          "compare_to": 40
-        }
-    }
+    "name": "When you're below y 40, you become 4 blocks tall.",
+    "description": ""
 }

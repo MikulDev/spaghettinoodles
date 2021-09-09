@@ -10,7 +10,9 @@
         "spaghetti_noodles:saxum_golem_stature",
         "spaghetti_noodles:saxum_aboveground_weakness",
         "spaghetti_noodles:hunger",
-        "spaghetti_noodles:saxum_aboveground_hunger"
+        "spaghetti_noodles:saxum_aboveground_hunger",
+        "spaghetti_noodles:saxum_effect",
+        "spaghetti_noodles:saxum_height_reset"
 	],
 	"icon": "minecraft:iron_pickaxe",
 	"order": 10,
