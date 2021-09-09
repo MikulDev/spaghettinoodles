@@ -1,4 +1,5 @@
 {
-    "name": "When you're below y 40, you become 4 blocks tall.",
-    "description": ""
+    "type": "origins:action_on_callback",
+    "name": "Earthen Goliath",
+    "description": "When you're below y 40, you become 4 blocks tall and have much more health"
 }

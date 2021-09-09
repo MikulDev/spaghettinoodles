@@ -5,10 +5,11 @@
         "type": "origins:name",
         "name": "drown"
     },
-    "modifier": 
-    {
-        "name": "Breathless",
-        "operation": "multiply_total",
-        "value": -1
-    }
+  "modifier": {
+    "name": "Breathless",
+    "operation": "multiply_total",
+    "value": -1
+  },
+  "name": "Inorganic",
+  "description": "You need not worry about air or temperature"
 }
