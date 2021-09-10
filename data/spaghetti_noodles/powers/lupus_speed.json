@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+  "modifier": {
+    "name": "Speed",
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.025,
+    "operation": "addition"
+  },
+  "name": "Agility",
+  "description": "You run faster and jump higher than most creatures"
+}

@@ -1,0 +1,15 @@
+{
+	"powers": 
+    [
+        "origins:water_vision",
+        "origins:aqua_affinity",
+        "origins:swim_speed",
+        "origins:like_water",
+        "origins:water_breathing"
+	],
+	"icon": "minecraft:water_bucket",
+	"order": 10,
+	"impact": 0,
+	"name": "Aqua",
+	"description": "Placeholder"
+}

@@ -1,0 +1,16 @@
+{
+	"powers": 
+    [
+        "origins:water_vision",
+        "spaghetti_noodles:lupus_cold_damage",
+        "spaghetti_noodles:lupus_speed",
+        "spaghetti_noodles:lupus_jump",
+        "spaghetti_noodles:light_armor",
+        "spaghetti_noodles:lupus_hearts"
+	],
+	"icon": "minecraft:leather",
+	"order": 10,
+	"impact": 0,
+	"name": "Lupus",
+	"description": "Placeholder"
+}

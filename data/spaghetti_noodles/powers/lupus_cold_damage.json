@@ -1,0 +1,19 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "condition": 
+    {
+      "type": "origins:biome",
+      "condition": {
+        "type": "origins:temperature",
+        "comparison": "<=",
+        "compare_to":  0.2
+      }
+    },
+    "modifier": {
+      "name": "Extra damage when in cold",
+      "operation": "addition",
+      "value": 2.0
+    },
+    "name": "Arctic Prowess",
+    "description": "You deal +2 damage when in the cold"
+}
