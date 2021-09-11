@@ -1,0 +1,15 @@
+{
+	"powers": 
+    [
+        "spaghetti_noodles:nightvision",
+		"spaghetti_noodles:nota_day_weakness",
+		"spaghetti_noodles:nota_effect",
+		"spaghetti_noodles:nota_hearts",
+		"spaghetti_noodles:nota_speed"
+	],
+	"icon": "minecraft:leather",
+	"order": 10,
+	"impact": 0,
+	"name": "Nota",
+	"description": "Placeholder"
+}

@@ -1,0 +1,15 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "condition": 
+    {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "modifier": {
+      "name": "Extra damage when in water",
+      "operation": "addition",
+      "value": 3.0
+    },
+    "name": "Aquatic Prowess",
+    "description": "You deal +2 damage when in water"
+}

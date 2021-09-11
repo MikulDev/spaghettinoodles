@@ -1,0 +1,24 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": 
+    {
+        "type": "origins:apply_effect",
+        "effect": 
+        {
+            "effect": "minecraft:weakness",
+            "duration": 2,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": false
+        }
+    },
+    "interval": 1,
+    "condition": 
+    {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water",
+        "inverted": true
+    },
+    "name": "Thrashing Fish",
+    "description": "When you're on land, you gain weakness."
+}
