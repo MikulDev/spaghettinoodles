@@ -10,11 +10,12 @@
           "compare_to": 1.75
       }
   },
-  "modifier": {
+  "modifier": 
+  {
     "name": "Extra damage when in heat",
     "operation": "addition",
     "value": 2.0
   },
   "name": "Thermophile",
-  "description": "You deal +2 damage when in hot climates and take no damage from heat-related things"
+  "description": "You deal +2 damage when in hot climates"
 }

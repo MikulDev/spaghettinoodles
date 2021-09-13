@@ -5,7 +5,7 @@
         "type": "origins:apply_effect",
         "effect": 
         {
-            "effect": "minecraft:fire_resistance",
+            "effect": "minecraft:water_breathing",
             "duration": 2,
             "amplifier": 0,
             "show_particles": false,
@@ -13,6 +13,5 @@
         }
     },
     "interval": 1,
-    "name": "Fire Resistance",
-    "description": "You have Fire Resistance"
+    "hidden": true
 }

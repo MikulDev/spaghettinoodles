@@ -13,5 +13,6 @@
         }
     },
     "interval": 1,
-    "hidden": true
+    "name": "Thin Skinned",
+    "description": "You are weak to arrows"
 }

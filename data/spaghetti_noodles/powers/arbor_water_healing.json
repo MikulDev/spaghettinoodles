@@ -12,5 +12,5 @@
         "fluid": "minecraft:water"
     },
     "name": "Root Tap",
-    "description": "When submerged in water you gain hearts at a rate of 1/2 per second."
+    "description": "When submerged in water you gain hearts at a rate of 1/2 per second"
 }

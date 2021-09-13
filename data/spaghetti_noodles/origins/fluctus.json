@@ -4,17 +4,17 @@
         "origins:water_vision",
         "origins:aqua_affinity",
         "origins:swim_speed",
-        "origins:water_breathing",
 				"spaghetti_noodles:fluctus_height",
 				"spaghetti_noodles:fluctus_weakness",
 				"spaghetti_noodles:fluctus_water_damage",
 				"spaghetti_noodles:hunger",
 				"spaghetti_noodles:fluctus_river_spawn",
+				"spaghetti_noodles:fluctus_land_walker",
 				"spaghetti_noodles:fluctus_effect"
 	],
 	"icon": "minecraft:cod",
 	"order": 10,
 	"impact": 0,
 	"name": "Fluctus",
-	"description": "Placeholder"
+	"description": "Brought to you by Momo Studios"
 }
