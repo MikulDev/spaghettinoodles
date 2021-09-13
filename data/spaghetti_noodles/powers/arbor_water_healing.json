@@ -1,0 +1,16 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": 
+    {
+        "type": "origins:heal",
+        "amount": 1
+    },
+    "interval": 20,
+    "condition": 
+    {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "name": "Root Tap",
+    "description": "When submerged in water you gain hearts at a rate of 1/2 per second."
+}

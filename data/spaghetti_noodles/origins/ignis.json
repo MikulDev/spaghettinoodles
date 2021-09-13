@@ -1,0 +1,14 @@
+{
+	"powers": 
+    [
+        "spaghetti_noodles:ignis_water_weakness",
+		"spaghetti_noodles:fire_resistance",
+		"spaghetti_noodles:ignis_heat_adaptation",
+		"spaghetii_noodles:ignis_effect"
+	],
+	"icon": "minecraft:fire_charge",
+	"order": 10,
+	"impact": 0,
+	"name": "Ignis",
+	"description": "Placeholder"
+}

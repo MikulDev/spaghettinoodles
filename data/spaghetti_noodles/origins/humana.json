@@ -1,7 +1,7 @@
 {
 	"powers": 
 	[
-
+		"spaghetti_noodles:humana_effect"
 	],
 	"icon": "minecraft:player_head",
 	"order": 10,

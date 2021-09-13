@@ -1,0 +1,26 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": 
+    {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.025,
+        "name": "Increased speed"
+    },
+    "tick_rate": 20,
+    "condition": 
+    {
+        "type": "origins:biome",
+                "condition": 
+                {
+                    "type": "origins:temperature",
+                    "comparison": ">=",
+                    "compare_to": 1.75
+                }
+    },
+    "name": "Heat Adaptation",
+    "description": "When in hot climates, you gain speed and in cold climates you suffer Weakness and Mining Fatigue."
+}
+
+
+

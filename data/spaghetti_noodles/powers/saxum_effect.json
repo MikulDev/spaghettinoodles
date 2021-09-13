@@ -12,5 +12,6 @@
             "show_icon": false
         }
     },
-    "interval": 1
+    "interval": 1,
+    "hidden": true
 }

@@ -1,0 +1,11 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "modifier": 
+    {
+        "name": "Weakness",
+        "operation": "multiply_total",
+        "value": 0.75
+    },
+    "name": "Weakness",
+    "description": "You deal 75% damage."
+}

@@ -1,0 +1,15 @@
+{
+  "type": "origins:modify_damage_taken",
+  "damage_condition": 
+  {
+    "type": "origins:name",
+    "name": "onFire"
+  },
+  "modifier": {
+    "name": "fire_weakness",
+    "operation": "addition",
+    "value": 1
+  },
+"name": "Flammable",
+"description": "Fire damage you take is magnified"
+}

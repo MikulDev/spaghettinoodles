@@ -3,7 +3,8 @@
 	[
 		"origins:climbing",
 		"spaghetti_noodles:light_armor",
-		"spaghetti_noodles:simia_falling"
+		"spaghetti_noodles:simia_falling",
+		"spaghetti_noodles:simia_effect"
 	],
 	"icon": "minecraft:grass",
 	"order": 10,

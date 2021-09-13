@@ -5,12 +5,13 @@
         "type": "origins:apply_effect",
         "effect": 
         {
-            "effect": "cold_sweat:ice_resistance_effect",
+            "effect": "spaghetti_noodles:arbor",
             "duration": 2,
             "amplifier": 0,
             "show_particles": false,
             "show_icon": false
         }
     },
-    "interval": 1
+    "interval": 1,
+    "hidden": true
 }

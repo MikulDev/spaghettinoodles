@@ -1,0 +1,42 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": 
+    {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.025,
+        "name": "Increased speed"
+    },
+    "tick_rate": 20,
+    "condition": 
+    {
+        "type": "origins:or",
+        "conditions": 
+        [
+            {
+                "type": "origins:biome",
+                "condition": 
+                {
+                    "type": "origins:temperature",
+                    "comparison": ">=",
+                    "compare_to": 1.75
+                }
+            },
+            {    
+                    "type": "origins:biome",
+                    "condition": 
+                    {
+                        "type": "origins:temperature",
+                        "comparison": "<=",
+                        "compare_to": 0.2
+                    }
+            }
+        ],
+        "inverted": true
+    },
+    "name": "Temperate Acclimation",
+    "description": "When in temperate climates, you are faster and stronger."
+}
+
+
+

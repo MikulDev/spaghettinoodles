@@ -1,5 +1,5 @@
 {
-  "type": "origins:action_on_callback",
+  "type": "origins:simple",
   "name": "Mineral Skin",
-  "description": "Your hardy skin is weak to pickaxes"
+  "description": "Your skin is hardy, but weak to pickaxes"
 }

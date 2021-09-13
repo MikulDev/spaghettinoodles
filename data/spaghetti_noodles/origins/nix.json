@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"spaghetti_noodles:fire_weakness",
+		"spaghetti_noodles:cold_immunity",
+		"spaghetti_noodles:nix_cold_damage",
+		"spaghetti_noodles:nix_effect"
+	],
+	"icon": "minecraft:leather",
+	"order": 10,
+	"impact": 0,
+	"name": "Nix",
+	"description": "Placeholder"
+}

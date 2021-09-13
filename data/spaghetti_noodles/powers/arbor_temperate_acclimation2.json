@@ -1,0 +1,36 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "condition": 
+    {
+        "type": "origins:or",
+        "conditions": 
+        [
+            {
+                "type": "origins:biome",
+                "condition": 
+                {
+                    "type": "origins:temperature",
+                    "comparison": ">=",
+                    "compare_to": 1.75
+                }
+            },
+            {    
+                    "type": "origins:biome",
+                    "condition": 
+                    {
+                        "type": "origins:temperature",
+                        "comparison": "<=",
+                        "compare_to": 0.2
+                    }
+            }
+        ],
+        "inverted": true
+    },
+    "modifier": 
+    {
+        "name": "Extra damage when in temperate climate",
+        "operation": "addition",
+        "value": 3.0
+    },
+    "hidden": true
+}

@@ -1,0 +1,18 @@
+{
+	"powers": 
+    [
+        "spaghetti_noodles:gigas_weakness",
+		"spaghetti_noodles:gigas_hearts",
+		"spaghetti_noodles:gigas_height",
+		"spaghetti_noodles:hunger",
+		"spaghetti_noodles:pride",
+		"spaghetti_noodles:bow_restriction",
+		"spaghetti_noodles:gigas_stone_hand",
+		"spaghetti_noodles:gigas_effect"
+	],
+	"icon": "minecraft:leather",
+	"order": 10,
+	"impact": 0,
+	"name": "Gigas",
+	"description": "Placeholder"
+}

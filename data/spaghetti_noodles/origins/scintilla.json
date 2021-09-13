@@ -4,7 +4,8 @@
 		"spaghetti_noodles:scintilla_hot_damage",
 		"spaghetti_noodles:scintilla_no_shield",
 		"spaghetti_noodles:hunger",
-		"spaghetti_noodles:scintilla_fire_resistance"
+		"spaghetti_noodles:scintilla_fire_resistance",
+		"spaghetti_noodles:scintilla_effect"
 	],
 	"icon": "minecraft:leather",
 	"order": 10,

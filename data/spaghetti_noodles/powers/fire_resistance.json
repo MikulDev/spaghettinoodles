@@ -5,13 +5,14 @@
         "type": "origins:apply_effect",
         "effect": 
         {
-            "effect": "spaghetti_noodles:nota",
+            "effect": "minecraft:fire_resistance",
             "duration": 2,
             "amplifier": 0,
             "show_particles": false,
             "show_icon": false
         }
     },
-  "interval": 1,
-  "hidden": true
+    "interval": 1,
+    "name": "Fire Resistance",
+    "description": "You have Fire Resistance."
 }

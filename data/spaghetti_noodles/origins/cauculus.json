@@ -5,7 +5,8 @@
 		"spaghetti_noodles:cauculus_height",
 		"spaghetti_noodles:cauculus_nightvision",
 		"spaghetti_noodles:cauculus_mining",
-		"spaghetti_noodles:cauculus_bow_restriction"
+		"spaghetti_noodles:bow_restriction",
+		"spaghetti_noodles:cauculus_effect"
 	],
 	"icon": "minecraft:iron_sword",
 	"order": 10,

@@ -1,0 +1,37 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "condition": 
+    {
+        "type": "origins:or",
+        "conditions": 
+        [
+            {
+                "type": "origins:biome",
+                "condition": 
+                {
+                    "type": "origins:temperature",
+                    "comparison": ">=",
+                    "compare_to": 1.75
+                }
+            },
+            {    
+                    "type": "origins:biome",
+                    "condition": 
+                    {
+                        "type": "origins:temperature",
+                        "comparison": "<=",
+                        "compare_to": 0.2
+                    }
+            }
+        ],
+        "inverted": false
+    },
+    "modifier": 
+    {
+        "name": "Less damage when in extreme climate",
+        "operation": "addition",
+        "value": -4.0
+    },
+    "name": "Climate Sensitivity",
+    "description": "When in extreme climates, you suffer from Weakness."
+}

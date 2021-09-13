@@ -13,14 +13,13 @@
         }
     },
     "interval": 1,
-    "condition": 
-    {
-        "type": "origins:in_block",
-        "block_condition":
-        {
-          "type": "origins:height",
-          "comparison": ">",
-          "compare_to": 40
-        }
+  "condition": {
+    "type": "origins:in_block",
+    "block_condition": {
+      "type": "origins:height",
+      "comparison": ">",
+      "compare_to": 40
     }
+  },
+  "hidden": true
 }

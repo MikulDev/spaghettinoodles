@@ -1,5 +1,5 @@
 {
     "type": "origins:action_on_callback",
-    "name": "Eroded Stature",
-    "description": "When you're above y 40, you are 1.75 blocks tall"
+    "name": "Erosion",
+    "description": "When you're above y 40, you are 1.75 blocks tall, starve faster, and have weakened attacks"
 }

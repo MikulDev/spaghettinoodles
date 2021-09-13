@@ -1,0 +1,16 @@
+{
+	"powers": 
+    [
+        "spaghetti_noodles:arbor_water_healing",
+		"spaghetti_noodles:fire_weakness",
+		"spaghetti_noodles:arbor_climate_sensitivity",
+		"spaghetti_noodles:arbor_temperate_acclimation",
+		"spaghetti_noodles:arbor_temperate_acclimation2",
+		"spaghetti_noodles:arbor_effect"
+	],
+	"icon": "minecraft:oak_sapling",
+	"order": 10,
+	"impact": 0,
+	"name": "Arbor",
+	"description": "Placeholder"
+}

@@ -7,7 +7,8 @@
         "spaghetti_noodles:lupus_jump",
         "spaghetti_noodles:light_armor",
         "spaghetti_noodles:lupus_hearts",
-        "spaghetti_noodles:lupus_cold_immunity"
+        "spaghetti_noodles:cold_immunity",
+        "spaghetti_noodles:lupus_effect"
 	],
 	"icon": "minecraft:leather",
 	"order": 10,
