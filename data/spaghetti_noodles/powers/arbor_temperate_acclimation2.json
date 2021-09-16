@@ -28,7 +28,7 @@
     },
     "modifier": 
     {
-        "name": "Extra damage when in temperate climate",
+        "name": "Extra damage when in temperate climate.",
         "operation": "addition",
         "value": 3.0
     },
