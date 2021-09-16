@@ -10,9 +10,9 @@
         "spaghetti_noodles:cold_immunity",
         "spaghetti_noodles:lupus_effect"
 	],
-	"icon": "minecraft:leather",
+	"icon": "minecraft:wool",
 	"order": 10,
-	"impact": 0,
+	"impact": 2,
 	"name": "Lupus",
 	"description": "This origin is based on an arctic fox, wolf, or snow leopard playstyle, allowing the player to be quicker and jump higher but at the cost of health and armor."
 }

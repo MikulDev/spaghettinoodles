@@ -8,9 +8,9 @@
         "origins:water_breathing",
 		"spaghetti_noodles:aqua_effect"
 	],
-	"icon": "minecraft:water_bucket",
+	"icon": "minecraft:salmon",
 	"order": 10,
-	"impact": 0,
+	"impact": 3,
 	"name": "Aqua",
 	"description": "This origin is based on a fish and aquatic playstyle, allowing the player to breathe underwater and swim quickly; the player will drown on land."
 }

@@ -5,9 +5,9 @@
 		"spaghetti_noodles:nix_cold_damage",
 		"spaghetti_noodles:nix_effect"
 	],
-	"icon": "minecraft:leather",
+	"icon": "minecraft:ice",
 	"order": 10,
-	"impact": 0,
+	"impact": 3,
 	"name": "Nix",
 	"description": "This origin is based on an ice golem or snow monster, allowing the player to survive easily in colder climates while weaker in hotter climates. The player deals extra damage when cold and gains weakness when hot."
 }

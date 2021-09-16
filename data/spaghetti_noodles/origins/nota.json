@@ -7,9 +7,9 @@
 		"spaghetti_noodles:nota_hearts",
 		"spaghetti_noodles:nota_speed"
 	],
-	"icon": "minecraft:leather",
+	"icon": "minecraft:iron_sword",
 	"order": 10,
-	"impact": 0,
+	"impact": 3,
 	"name": "Nota",
 	"description": "This origin is based on an undead, vampire, or knight stalker playstyle, allowing the player to deal extra damage at night while being weak to daylight."
 }

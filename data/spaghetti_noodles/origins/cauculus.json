@@ -8,9 +8,9 @@
 		"spaghetti_noodles:bow_restriction",
 		"spaghetti_noodles:cauculus_effect"
 	],
-	"icon": "minecraft:iron_sword",
+	"icon": "minecraft:iron_pickaxe",
 	"order": 10,
-	"impact": 0,
+	"impact": 2,
 	"name": "Cauculus",
 	"description": "This origin is based on a dwarf, gnome, or small rock golem playstyle, allowing the player to mine quicker and see underground. The player is also smaller in stature and unable to use bows."
 }

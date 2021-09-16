@@ -6,9 +6,9 @@
 		"spaghetti_noodles:simia_falling",
 		"spaghetti_noodles:simia_effect"
 	],
-	"icon": "minecraft:grass",
+	"icon": "minecraft:ladder",
 	"order": 10,
-	"impact": 0,
+	"impact": 2,
 	"name": "Simia",
 	"description": "This origin is based on a monkey, spider, and climbing playstyle, allowing you to climb walls with an added risk of fall damage."
 }

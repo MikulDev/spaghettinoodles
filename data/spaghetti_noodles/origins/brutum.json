@@ -7,9 +7,9 @@
         "spaghetti_noodles:brutum_height",
         "spaghetti_noodles:brutum_pride"
 	],
-	"icon": "minecraft:leather",
+	"icon": "minecraft:iron_axe",
 	"order": 10,
-	"impact": 0,
+	"impact": 2,
 	"name": "Brutum",
 	"description": "This origin is based on a Brute, Ogre, or Minotaur playstyle, allowing the player to take more hits with 14 hearts and tower over other players with 3 blocks in height."
 }

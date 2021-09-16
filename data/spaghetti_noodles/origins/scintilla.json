@@ -7,9 +7,9 @@
 		"spaghetti_noodles:scintilla_fire_resistance",
 		"spaghetti_noodles:scintilla_effect"
 	],
-	"icon": "minecraft:leather",
+	"icon": "minecraft:porkchop",
 	"order": 10,
-	"impact": 0,
+	"impact": 2,
 	"name": "Scintilla",
 	"description": "This origin is based on a Piglin, fire Dragonborn, or hell walker playstyle, allowing the player to deal extra damage when hot at the cost of no shield and needing to eat more food."
 }

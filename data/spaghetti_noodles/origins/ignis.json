@@ -6,9 +6,9 @@
 		"spaghetti_noodles:ignis_heat_adaptation",
 		"spaghetti_noodles:ignis_effect"
 	],
-	"icon": "minecraft:fire_charge",
+	"icon": "minecraft:magma_block",
 	"order": 10,
-	"impact": 0,
+	"impact": 3,
 	"name": "Ignis",
 	"description": "This origin is based on a fire golem, magma monster, or lava snake playstyle, allowing the player to swim in lava and immunity to fire at the cost of being weak to water. When hot given additional speed when cold weakness and mining fatigue."
 }

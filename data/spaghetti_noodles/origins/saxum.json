@@ -16,7 +16,7 @@
   ],
 	"icon": "minecraft:cobblestone",
 	"order": 10,
-	"impact": 0,
+	"impact": 3,
 	"name": "Saxum",
 	"description": "This origin is based on a rock golem, fungus, or elemental creature playstyle. This allows the player to be immune to the elements. The player's health is also doubled. Finally, the player grows when under a certain y-level. Aboveground the player is smaller and all-around weaker, them having half the standard player's health."
 }
