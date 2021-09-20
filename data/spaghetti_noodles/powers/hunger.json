@@ -7,8 +7,7 @@
   "interval": 2,
   "condition":
   {
-    "type": "origins:moving",
-    "inverted": true
+    "type": "origins:moving"
   },
   "name": "Ravenous",
   "description": "You must eat more often to sustain yourself."
