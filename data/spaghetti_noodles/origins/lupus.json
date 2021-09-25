@@ -10,7 +10,7 @@
         "spaghetti_noodles:cold_immunity",
         "spaghetti_noodles:lupus_effect"
 	],
-	"icon": "minecraft:wool",
+	"icon": "minecraft:white_wool",
 	"order": 10,
 	"impact": 2,
 	"name": "Lupus",
