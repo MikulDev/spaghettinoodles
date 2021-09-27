@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+[[mods]]
+modId="spaghetti_noodles"
+version="${file.jarVersion}"
+displayName="Spaghetti Noodles"
+#logoFile="spaghetti_noodles.png"
+authors="iMikul, chubbymomo"
+description='''
+
+'''
+[[dependencies.spaghetti_noodles]]
+   modId="forge"
+   mandatory=true
+   versionRange="[36,)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.spaghetti_noodles]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.16.5,1.17)"
+   ordering="NONE"
+   side="BOTH"
