@@ -9,14 +9,17 @@ import java.util.Iterator;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ShieldItem;
 import net.minecraft.potion.EffectInstance;
+import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent.BreakSpeed;
 import net.minecraftforge.event.entity.player.PlayerEvent.HarvestCheck;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent.RightClickItem;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
+import net.momostudios.spaghettinoodles.effects.FluctusEffect;
 import net.momostudios.spaghettinoodles.effects.GigasEffect;
 import net.momostudios.spaghettinoodles.register.ForbiddenIDs;
 
@@ -25,19 +28,14 @@ public class GigasEvents {
     public GigasEvents() {
     }
 
-    public static boolean hasEffect(LivingEntity entity) {
-        Iterator var1 = entity.getActivePotionEffects().iterator();
-
-        EffectInstance effect;
-        do {
-            if (!var1.hasNext()) {
-                return false;
-            }
-
-            effect = (EffectInstance)var1.next();
-        } while(!(effect.getPotion() instanceof GigasEffect));
-
-        return true;
+    public static boolean hasEffect(LivingEntity entity)
+    {
+        for (EffectInstance effect : entity.getActivePotionEffects())
+        {
+            if (effect.getPotion() instanceof GigasEffect)
+                return true;
+        }
+        return false;
     }
 
     @SubscribeEvent
@@ -72,5 +70,20 @@ public class GigasEvents {
             event.setCanceled(true);
         }
 
+    }
+
+    @SubscribeEvent
+    public static void increaseHunger(TickEvent.PlayerTickEvent event)
+    {
+        PlayerEntity player = event.player;
+        if (hasEffect(player))
+        {
+            float amount = player.serializeNBT().getFloat("foodExhaustionLevel") - player.getPersistentData().getFloat("lastExhaustion");
+
+            if (player.serializeNBT().getFloat("foodExhaustionLevel") > player.getPersistentData().getFloat("lastExhaustion"))
+                player.getFoodStats().addExhaustion(amount * 0.1f);
+
+            player.getPersistentData().putFloat("lastExhaustion", player.serializeNBT().getFloat("foodExhaustionLevel"));
+        }
     }
 }

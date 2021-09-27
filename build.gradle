@@ -12,10 +12,10 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 
 group = 'net.momostudios'
-version = '1.4'
+version = 'r1.5'
 
 java {
-    archivesBaseName = 'spaghettinoodles'
+    archivesBaseName = 'SpaghettiNoodles'
     toolchain.languageVersion = JavaLanguageVersion.of(8)
 }
 
