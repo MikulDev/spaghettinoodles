@@ -1,15 +1,5 @@
 {
-  "type": "origins:action_over_time",
-  "entity_action": {
-    "type": "origins:exhaust",
-    "amount": 0.00
-  },
-  "interval": 2,
-  "condition":
-  {
-    "type": "origins:moving"
-  },
-  "hidden": true,
+  "type": "origins:simple",
   "name": "Ravenous",
   "description": "You must eat more often to sustain yourself."
 }
