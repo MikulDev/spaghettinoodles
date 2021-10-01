@@ -10,19 +10,7 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.momostudios.spaghettinoodles.effects.AquaEffect;
-import net.momostudios.spaghettinoodles.effects.ArborEffect;
-import net.momostudios.spaghettinoodles.effects.BrutumEffect;
-import net.momostudios.spaghettinoodles.effects.CauculusEffect;
-import net.momostudios.spaghettinoodles.effects.FluctusEffect;
-import net.momostudios.spaghettinoodles.effects.GigasEffect;
-import net.momostudios.spaghettinoodles.effects.HumanaEffect;
-import net.momostudios.spaghettinoodles.effects.IgnisEffect;
-import net.momostudios.spaghettinoodles.effects.LupisEffect;
-import net.momostudios.spaghettinoodles.effects.NixEffect;
-import net.momostudios.spaghettinoodles.effects.NotaEffect;
-import net.momostudios.spaghettinoodles.effects.SaxumEffect;
-import net.momostudios.spaghettinoodles.effects.ScintillaEffect;
+import net.momostudios.spaghettinoodles.effects.*;
 
 @EventBusSubscriber
 public class EffectInit {
@@ -40,6 +28,7 @@ public class EffectInit {
     public static final RegistryObject<Effect> AQUA_REGISTRY;
     public static final RegistryObject<Effect> HUMANA_REGISTRY;
     public static final RegistryObject<Effect> LUPIS_REGISTRY;
+    public static final RegistryObject<Effect> SIMIA_REGISTRY;
 
     public EffectInit() {
     }
@@ -59,5 +48,6 @@ public class EffectInit {
         AQUA_REGISTRY = EFFECTS.register("aqua", AquaEffect::new);
         HUMANA_REGISTRY = EFFECTS.register("humana", HumanaEffect::new);
         LUPIS_REGISTRY = EFFECTS.register("lupis", LupisEffect::new);
+        SIMIA_REGISTRY = EFFECTS.register("simia", SimiaEffect::new);
     }
 }
